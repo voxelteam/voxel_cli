@@ -224,7 +224,18 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
+    "supergroup",
+    "lock_emoji",
+    "lock_fosh",
+    "lock_tag",
+    "lock_english",
+    "lock_fwd",
+    "lock_join",
+    "lock_media",
+    "lock_operator",
+    "lock_reply",
+    "lock_username"
     },
     sudo_users = {109092934},--Sudo users
     disabled_channels = {},
