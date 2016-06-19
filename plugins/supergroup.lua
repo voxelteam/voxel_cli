@@ -1,19 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @voxelteam
- Watch 1
-  Star 0
-  Fork 0 cpluscpu/episs
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs
-Branch: supergroups Find file Copy pathepiss/plugins/supergroup.lua
-7a641f0  4 days ago
-@clphusf clphusf Update supergroup.lua
-4 contributors @clphusf @hafez16 @TiagoDanin @Imandaneshi
-RawBlameHistory     2765 lines (2642 sloc)  97.7 KB
 --Begin supergrpup.lua
 --Check members #Add supergroup
 local function check_member_super(cb_extra, success, result)
@@ -2777,6 +2761,3 @@ return {
   run = run,
   pre_process = pre_process
 }
-
-Status API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
