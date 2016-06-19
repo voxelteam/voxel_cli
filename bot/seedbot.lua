@@ -241,7 +241,16 @@ function create_config( )
 	"lock_operator",
 	"lock_reply",
 	"lock_tag",
-	"lock_username"
+	"lock_username",
+	"abjad",
+	"activeuser",
+	"azan",
+	"info",
+	"linkpv",
+	"logo",
+	"sendplugin",
+	"stmaker",
+	"time"
     },
     sudo_users = {109092934},--Sudo users
     moderation = {data = 'data/moderation.json'},
