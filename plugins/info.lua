@@ -94,7 +94,7 @@ local function action_by_id(extra, success, result)  -- /info <ID> function
   local um_hash = 'msgs:'..result.peer_id..':'..extra.chat2
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'تعدا پیام های کاربر : '..user_info_msgs..'\n\n'
-  text = text..'🔖 @dimon_team'
+  text = text..'🔖 @voxelTEAM'
   send_msg(extra.receiver, text, ok_cb,  true)
   else
   send_msg(extra.receiver, 'id not found.\nuse : /info @username', ok_cb, false)
@@ -137,7 +137,7 @@ local function action_by_reply(extra, success, result)-- (reply) /info  function
   local um_hash = 'msgs:'..result.from.peer_id..':'..result.to.peer_id
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'تعدا پیام های کاربر : '..user_info_msgs..'\n\n'
-  text = text..'🔹 @dimon_team'
+  text = text..'🔹 @voxelTEAM'
   send_msg(extra.receiver, text, ok_cb, true)
 end
 
@@ -211,7 +211,7 @@ local function run(msg, matches)
 	 text = text..'نام گروه : '..msg.to.title..'\n'
      text = text..'ایدی گروه : '..msg.to.id
     end
-	text = text..'\n\n💥 @dimon_team'
+	text = text..'\n\n💥 @voxelTEAM'
     return send_msg(receiver, text, ok_cb, true)
     end
   end
